@@ -1,0 +1,7 @@
+DROP TABLE people IF EXISTS;
+
+CREATE TABLE book  (
+    book_id BIGINT IDENTITY NOT NULL PRIMARY KEY,
+    author VARCHAR(20),
+    isin VARCHAR(20)
+);
